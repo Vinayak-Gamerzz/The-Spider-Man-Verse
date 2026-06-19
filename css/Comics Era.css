@@ -1,0 +1,219 @@
+body{
+    background:
+    linear-gradient(
+    180deg,
+    #c23333,
+    #a80403
+    );
+
+    color:white;
+
+    font-family:Arial, sans-serif;
+
+    text-align: center;
+}
+
+/* Villain Comic Grid */
+
+.villains-grid-comics-1963{
+  display:grid;
+
+  grid-template-columns:
+  repeat(3,1fr);
+
+  gap:100px;
+
+  width:90%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+/* MOBILE */
+
+@media(max-width:700px){
+
+  .villains-grid-comics-1963,
+  .villains-grid-comics-1964{
+  grid-template-columns:1fr;
+}
+
+}
+
+/* FLIP CARDS */
+
+.flip-card{
+  perspective:1500px;
+  
+}
+
+.flip-inner{
+  position:relative;
+
+  width:100%;
+  height:300px;
+
+  transition:transform 0.7s;
+
+  transform-style:preserve-3d;
+}
+
+.flip-card:hover .flip-inner{
+  transform:rotateY(180deg);
+}
+
+.flip-front,
+.flip-back{
+
+  position:absolute;
+
+  width:100%;
+  height:100%;
+
+  backface-visibility:hidden;
+
+  border-radius:30px;
+
+  padding:30px;
+
+  text-align:center;
+
+  background: #051d73;
+
+  border:1px solid #051d73;
+}
+
+.flip-front img{
+  width:100px;
+  height:100px;
+
+  border-radius:50%;
+
+  object-fit:cover;
+
+  border:3px solid #d8d4d3;
+}
+
+.flip-front h3{
+  margin-top:18px;
+
+  color: #d8d4d3;
+
+  font-family:'Orbitron';
+
+  font-size:24px;
+}
+
+.flip-front p{
+  margin-top:8px;
+  color:#CBD5E1;
+}
+
+.flip-back{
+  transform:rotateY(180deg);
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  background:
+    linear-gradient(
+    135deg,
+    #051d73,
+    #0a2c9c
+);
+}
+
+.flip-back p{
+  color:white;
+  line-height:1.8;
+}
+
+.villains-grid-comics-1964{
+  display:grid;
+
+  grid-template-columns:
+  repeat(2,1fr);
+
+  gap:100px;
+
+  width:90%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+ul {
+    display: table;
+    margin: 0 auto;
+    padding: 0;
+}
+
+hr{
+    border:none;
+    height:2px;
+    background:white;
+    width:80%;
+    margin:50px auto;
+}
+
+h1{
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 0 20px red;
+}
+
+h1,h2,h3,h4{
+  font-family:'Orbitron',sans-serif;
+}
+
+.villains-grid-comics-1964-team{
+  display:grid;
+
+  grid-template-columns:
+  repeat(1,1fr);
+
+  gap:100px;
+
+  width:90%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+.team{
+  display:grid;
+  grid-template-columns:repeat(6,1fr);
+  gap:20px;
+  text-align:center;
+}
+
+.team-member{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.team-image{
+  width:80px;
+  height:80px;
+  border-radius:50%;
+  object-fit:cover;
+}
+
+.team-member p{
+  margin-top:10px;
+  font-size:14px;
+  color:white;
+}
+
+.team-back{
+  justify-content:flex-start;
+  padding-top:20px;
+}
