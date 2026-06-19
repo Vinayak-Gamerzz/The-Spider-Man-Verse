@@ -326,3 +326,60 @@ h1,h2,h3,h4{
 .Spider-Man-Black-Venom-Symbiote-Suit {
   width: 300px;
 }
+
+.Carnage-Birth-1992 {
+  display:grid;
+
+  grid-template-columns:
+  repeat(1,1fr);
+
+  gap:100px;
+
+  width:30%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+.Venom-Birth-1988 {
+  display:grid;
+
+  grid-template-columns:
+  repeat(1,1fr);
+
+  gap:100px;
+
+  width:30%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+.Peter-MJ-Wedding {
+  width: 300px;
+}
+
+.clash-between-hero-carnage {
+  width: 500px;
+}
+
+.Ben-Reilly-Appears-1995 {
+  display:grid;
+
+  grid-template-columns:
+  repeat(1,1fr);
+
+  gap:100px;
+
+  width:30%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+.ben-with-hoodie {
+  width: 300px;
+}
