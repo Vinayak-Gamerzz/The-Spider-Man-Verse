@@ -383,3 +383,126 @@ h1,h2,h3,h4{
 .ben-with-hoodie {
   width: 300px;
 }
+
+.black-cat {
+  display:grid;
+
+  grid-template-columns:
+  repeat(1,1fr);
+
+  gap:100px;
+
+  width:30%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+.comics-year-part {
+  display:grid;
+
+  grid-template-columns:
+  repeat(3,1fr);
+
+  gap:100px;
+
+  width:100%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+/*Moblie Thingyy*/
+
+@media (max-width: 700px){
+
+  .villains-grid-comics-1963,
+  .villains-grid-comics-1964,
+  .villains-grid-comics-1965,
+  .friends-grid-comics-1965,
+  .friends-grid-comics-1968,
+  .comics-year-part{
+    grid-template-columns:1fr;
+  }
+
+  .team{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .single-card,
+  .friends-grid-comics-1969,
+  .Green-Goblin-Reveal-1972,
+  .friends-grid-comics-1976,
+  .Hob-Goblin-Appears-1980,
+  .Carnage-Birth-1992,
+  .Venom-Birth-1988,
+  .Ben-Reilly-Appears-1995,
+  .black-cat{
+    width:90%;
+  }
+
+  h1{
+    font-size:2.2rem;
+  }
+
+  h2{
+    font-size:1.6rem;
+  }
+
+  h3{
+    font-size:1.2rem;
+  }
+
+  .Peter-MJ-Wedding,
+  .Spider-Man-Black-Venom-Symbiote-Suit,
+  .clash-between-hero-carnage,
+  .ben-with-hoodie{
+    width:90%;
+    max-width:400px;
+    height:auto;
+  }
+
+  .flip-inner{
+    height:350px;
+  }
+}
+
+.part-link{
+  text-decoration:none;
+  color:inherit;
+  display:block;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+.Modern-Era-from-old-btn{
+    display:inline-block;
+
+    background:#051d73;
+    color:white;
+
+    padding:15px 30px;
+
+    border:3px solid red;
+    border-radius:15px;
+
+    text-decoration:none;
+
+    font-family:'Orbitron',sans-serif;
+    font-size:18px;
+
+    transition:0.3s;
+}
+
+.Modern-Era-from-old-btn:hover{
+    background:red;
+    border-color:white;
+
+    transform:scale(1.05);
+
+    box-shadow:0 0 20px red;
+}
