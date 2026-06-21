@@ -1,12 +1,21 @@
 body{
-    background:
-    linear-gradient(
-    180deg,
-    #c23333,
-    #a80403
-    );
 
-    color:white;
+    background:
+  linear-gradient(
+    rgba(168,4,3,0.9),
+    rgba(5,29,115,0.9)
+  ),
+  url("../assets/images/bg/makdi\ man\ logo\ with\ web.jpg");
+
+    background-size:cover, cover, cover;
+
+    background-position:center, center, center;
+
+    background-attachment:fixed, fixed, fixed;
+
+    background-blend-mode:normal, screen, multiply;
+
+  color:white;
 
     font-family:Arial, sans-serif;
 
@@ -445,6 +454,7 @@ h1,h2,h3,h4{
 
   h1{
     font-size:2.2rem;
+    
   }
 
   h2{
@@ -505,4 +515,60 @@ html{
     transform:scale(1.05);
 
     box-shadow:0 0 20px red;
+}
+
+.era-section{
+  background:rgba(0,0,0,0.25);
+
+  border:2px solid red;
+
+  border-radius:20px;
+
+  padding:30px;
+
+  margin:50px auto;
+
+  width:85%;
+
+  box-shadow:
+  0 0 15px rgba(255,0,0,0.4);
+}
+
+#goTopBtn{
+    position:fixed;
+
+    bottom:30px;
+    right:30px;
+
+    width:60px;
+    height:60px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#051d73;
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 0 10px red,
+    0 0 20px red;
+
+    transition:0.3s;
+
+    z-index:999;
+}
+
+#goTopBtn:hover{
+    transform:scale(1.1);
+
+    background:red;
+
+    box-shadow:
+    0 0 20px white,
+    0 0 30px red;
 }
