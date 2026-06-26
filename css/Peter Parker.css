@@ -1,0 +1,66 @@
+body{
+
+    background:
+  linear-gradient(
+    rgba(168,4,3,0.9),
+    rgba(5,29,115,0.9)
+  ),
+  url("../assets/images/bg/SPIDERMAN\ BG.jpg");
+
+    background-size:cover, cover, cover;
+
+    background-position:center, center, center;
+
+    background-attachment:fixed, fixed, fixed;
+
+    background-blend-mode:normal, screen, multiply;
+
+  color:white;
+
+    font-family:Arial, sans-serif;
+
+    text-align: center;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+#goTopBtn{
+    position:fixed;
+
+    bottom:30px;
+    right:30px;
+
+    width:60px;
+    height:60px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#051d73;
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 0 10px rgb(72, 59, 213),
+    0 0 20px rgb(0, 145, 255);
+
+    transition:0.3s;
+
+    z-index:999;
+}
+
+#goTopBtn:hover{
+    transform:scale(1.1);
+
+    background:rgb(21, 0, 255);
+
+    box-shadow:
+    0 0 20px white,
+    0 0 30px rgb(0, 98, 255);
+}
