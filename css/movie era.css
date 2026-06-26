@@ -58,3 +58,169 @@ body{
     box-shadow:
     0 0 15px red;
 }
+
+h1{
+  font-size: 4rem;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-shadow: 0 0 20px red;
+}
+
+h1,h2,h3,h4{
+  font-family:'Orbitron',sans-serif;
+}
+
+/* FLIP CARDS */
+
+.flip-card{
+  perspective:1500px;
+  
+}
+
+.flip-inner{
+  position:relative;
+
+  width:100%;
+  height:300px;
+
+  transition:transform 0.7s;
+
+  transform-style:preserve-3d;
+}
+
+.flip-card:hover .flip-inner{
+  transform:rotateY(180deg);
+} 
+
+.flip-front,
+.flip-back{
+
+  position:absolute;
+
+  width:100%;
+  height:100%;
+
+  backface-visibility:hidden;
+
+  border-radius:30px;
+
+  padding:30px;
+
+  text-align:center;
+
+  background: #8079ff;
+
+  border:1px solid #051d73;
+}
+
+.flip-front img{
+  width:100px;
+  height:100px;
+
+  border-radius:50%;
+
+  object-fit:cover;
+
+  border:3px solid #d8d4d3;
+}
+
+.flip-front h3{
+  margin-top:18px;
+
+  color: #d8d4d3;
+
+  font-family:'Orbitron';
+
+  font-size:24px;
+}
+
+.flip-front p{
+  margin-top:8px;
+  color:#CBD5E1;
+}
+
+.flip-back{
+  transform:rotateY(180deg);
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+
+  background:
+    linear-gradient(
+    135deg,
+    #8079ff,
+    #0a2c9c
+);
+}
+
+.flip-back p{
+  color:white;
+  line-height:1.8;
+}
+
+.movie-actor-part {
+  display:grid;
+
+  grid-template-columns:
+  repeat(4,1fr);
+
+  gap:100px;
+
+  width:100%;
+
+  max-width:1100px;
+
+  margin:0 auto 100px;
+}
+
+.part-link{
+  text-decoration:none;
+  color:inherit;
+  display:block;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+#goTopBtn{
+    position:fixed;
+
+    bottom:30px;
+    right:30px;
+
+    width:60px;
+    height:60px;
+
+    border:none;
+    border-radius:50%;
+
+    background:#051d73;
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    box-shadow:
+    0 0 10px rgb(72, 59, 213),
+    0 0 20px rgb(0, 145, 255);
+
+    transition:0.3s;
+
+    z-index:999;
+}
+
+#goTopBtn:hover{
+    transform:scale(1.1);
+
+    background:rgb(21, 0, 255);
+
+    box-shadow:
+    0 0 20px white,
+    0 0 30px rgb(0, 98, 255);
+}
