@@ -1,0 +1,60 @@
+body{
+
+    background:
+  linear-gradient(
+    rgba(168,4,3,0.9),
+    rgba(5,29,115,0.9)
+  ),
+  url("../assets/images/bg/TOBEY\,\ ANDREW\,\ TOM\ TOGETHER.jpg");
+
+    background-size:cover, cover, cover;
+
+    background-position:center, center, center;
+
+    background-attachment:fixed, fixed, fixed;
+
+    background-blend-mode:normal, screen, multiply;
+
+  color:white;
+
+    font-family:Arial, sans-serif;
+
+    text-align: center;
+}
+
+.movie-card{
+
+    display:flex;
+
+    gap:40px;
+
+    align-items:center;
+
+    background:
+    rgba(0,0,0,.3);
+
+    border-radius:20px;
+
+    padding:30px;
+
+    width:85%;
+
+    margin:40px auto;
+
+    border:2px solid red;
+}
+
+.movie-info{
+
+    text-align:left;
+}
+
+.movie-card img{
+
+    width:250px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 0 15px red;
+}
