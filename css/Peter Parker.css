@@ -7,15 +7,15 @@ body{
   ),
   url("../assets/images/bg/SPIDERMAN\ BG.jpg");
 
-    background-size:cover, cover, cover;
+    background-size:cover;
 
-    background-position:center, center, center;
+    background-position:center;
 
-    background-attachment:fixed, fixed, fixed;
+    background-attachment:fixed;
 
-    background-blend-mode:normal, screen, multiply;
+    background-blend-mode:normal;
 
-  color:white;
+    color :white;
 
     font-family:Arial, sans-serif;
 
@@ -63,4 +63,636 @@ html{
     box-shadow:
     0 0 20px white,
     0 0 30px rgb(0, 98, 255);
+}
+
+.shield-profile-personal {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 60px auto;
+}
+
+.personal-profile {
+    display: flex;
+
+    gap: 40px;
+
+    align-items: center;
+
+    background: rgba(5,29,115,0.75);
+
+    border: 3px solid red;
+
+    padding: 30px;
+
+    box-shadow: 0 0 20px rgba(255, 0,0,.4);
+}
+
+.profile-img {
+    width: 200px;
+
+    border-radius: 10px;
+
+    border: 4px solid white;
+}
+
+.profile-info {
+    flex: 1;
+
+    text-align: left;
+}
+
+.profile-info h3{
+
+    font-size:2rem;
+
+    color:rgb(255, 255, 255);
+
+    margin-bottom:25px;
+
+    font-family:'Orbitron',sans-serif;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+th{
+
+    width:220px;
+
+    text-align:left;
+
+    color:#df2d2d;
+
+    padding:12px;
+
+    border-bottom:1px solid rgba(255,255,255,.2);
+
+}
+
+td{
+
+    padding:12px;
+
+    border-bottom:1px solid rgba(255,255,255,.2);
+
+}
+
+.early-life {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 60px auto;
+}
+
+.early-card {
+    display: flex;
+
+    gap: 40px;
+
+    align-items: center;
+
+    background: rgba(51, 44, 241, 0.75);
+
+    border: 3px solid rgb(189, 80, 80);
+
+    padding: 30px;
+
+    box-shadow: 0 0 20px rgba(255, 0,0,.4);
+}
+
+.early-info {
+    flex: 1;
+
+    text-align: center;
+}
+
+.early-info h3{
+
+    font-size:2rem;
+
+    color:rgb(255, 255, 255);
+
+    margin-bottom:25px;
+
+    font-family:'Orbitron',sans-serif;
+
+    text-align: center;
+
+}
+
+.school-life {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 60px auto;
+}
+
+.school {
+    display: flex;
+
+    gap: 40px;
+
+    align-items: center;
+
+    background: rgba(5,29,115,0.75);
+
+    border: 3px solid red;
+
+    padding: 30px;
+
+    box-shadow: 0 0 20px rgba(255, 0,0,.4);
+}
+
+.school-img {
+    width: 200px;
+
+    border-radius: 10px;
+
+    border: 4px solid white;
+}
+
+.school-info {
+    flex: 1;
+
+    text-align: left;
+}
+
+.school-info h3{
+
+    font-size:2rem;
+
+    color:rgb(255, 255, 255);
+
+    margin-bottom:25px;
+
+    font-family:'Orbitron',sans-serif;
+
+}
+
+.spider-bite {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 60px auto;
+}
+
+.bite-card {
+    display: flex;
+
+    gap: 40px;
+
+    align-items: center;
+
+    background: rgba(5,29,115,0.75);
+
+    border: 3px solid red;
+
+    padding: 30px;
+
+    box-shadow: 0 0 20px rgba(255, 0,0,.4);
+}
+
+.bite {
+    width: 200px;
+
+    border-radius: 10px;
+
+    border: 4px solid white;
+}
+
+.bite-info {
+    flex: 1;
+
+    text-align: left;
+}
+
+.bite-info h3{
+
+    font-size:2rem;
+
+    color:rgb(255, 255, 255);
+
+    margin-bottom:25px;
+
+    font-family:'Orbitron',sans-serif;
+
+}
+
+.uncle-ben {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 60px auto;
+}
+
+.ben-card {
+    display: flex;
+
+    gap: 40px;
+
+    align-items: center;
+
+    background: rgba(181, 57, 45, 0.75);
+
+    border: 3px solid red;
+
+    padding: 30px;
+
+    box-shadow: 0 0 20px rgba(255, 0,0,.4);
+}
+
+.ben {
+    width: 200px;
+
+    border-radius: 10px;
+
+    border: 4px solid white;
+}
+
+.ben-info {
+    flex: 1;
+
+    text-align: left;
+}
+
+.ben-info h3{
+
+    font-size:2rem;
+
+    color:rgb(255, 255, 255);
+
+    margin-bottom:25px;
+
+    font-family:'Orbitron',sans-serif;
+
+}
+
+.career {
+    width: 90%;
+
+    max-width: 1100px;
+
+    margin: 60px auto;
+}
+
+.career-card {
+    display: flex;
+
+    gap: 40px;
+
+    align-items: center;
+
+    background: rgba(214, 96, 85, 0.75);
+
+    border: 3px solid red;
+
+    padding: 30px;
+
+    box-shadow: 0 0 20px rgba(255, 0,0,.4);
+}
+
+.job {
+    width: 200px;
+
+    border-radius: 10px;
+
+    border: 4px solid white;
+}
+
+.career-info {
+    flex: 1;
+
+    text-align: left;
+}
+
+.career-info h3{
+
+    font-size:2rem;
+
+    color:rgb(255, 255, 255);
+
+    margin-bottom:25px;
+
+    font-family:'Orbitron',sans-serif;
+
+}
+
+.friends{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:80px auto;
+
+}
+
+.friends h2{
+
+    font-family:'Orbitron',sans-serif;
+
+    margin-bottom:40px;
+
+}
+
+.friend-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+}
+
+.friend{
+
+    background:rgba(5,29,115,.75);
+
+    border:2px solid red;
+
+    border-radius:20px;
+
+    padding:25px;
+
+    transition:.3s;
+
+    box-shadow:0 0 15px rgba(255,0,0,.4);
+
+}
+
+.friend:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 25px red;
+
+}
+
+.friend img{
+
+    width:120px;
+    height:120px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:3px solid white;
+
+}
+
+.friend h3{
+
+    color:white;
+
+    margin-top:20px;
+
+    font-family:'Orbitron',sans-serif;
+
+}
+
+.friend h4{
+
+    color:#ff4d4d;
+
+}
+
+.friend p{
+
+    line-height:1.7;
+
+}
+
+.love-life{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:80px auto;
+
+}
+
+.girlfriend h2{
+
+    font-family:'Orbitron',sans-serif;
+
+    margin-bottom:40px;
+
+}
+
+.gf-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+}
+
+.girlfriend{
+
+    background:rgba(227, 18, 195, 0.75);
+
+    border:2px solid rgb(255, 0, 221);
+
+    border-radius:20px;
+
+    padding:25px;
+
+    transition:.3s;
+
+    box-shadow:0 0 15px rgba(255,0,0,.4);
+
+}
+
+.girlfriend:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 25px rgb(64, 0, 255);
+
+}
+
+.girlfriend img{
+
+    width:120px;
+    height:120px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:3px solid white;
+
+}
+
+.girlfriend h3{
+
+    color:white;
+
+    margin-top:20px;
+
+    font-family:'Orbitron',sans-serif;
+
+}
+
+.girlfriend h4{
+
+    color:#ff4d4d;
+
+}
+
+.girlfriend p{
+
+    line-height:1.7;
+
+}
+
+.family {
+
+    width: 100%;
+
+    max-width: 1200px;
+
+    margin: 100px auto;
+
+}
+
+.family-members {
+
+    display: grid;
+
+    grid-template-columns: repeat(2,1fr);
+
+    gap: 40px;
+
+}
+
+.members {
+
+    background: #d027dd;
+
+    border: 3px solid rgb(255, 0, 217);
+
+    border-radius: 20px;
+
+    padding: 25px;
+
+    transition: .3s;
+
+    box-shadow: 0 0 15px rgb(255, 0, 179)
+
+}
+
+.members img {
+
+    width:130px;
+
+    height: 130px;
+
+    object-fit: cover;
+
+    border-radius: 10%;
+
+    border: 3px solid white;
+
+}
+
+.loss{
+
+    width:90%;
+    max-width:1200px;
+
+    margin:80px auto;
+
+}
+
+.losses h2{
+
+    font-family:'Orbitron',sans-serif;
+
+    margin-bottom:40px;
+
+}
+
+.losses{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:40px;
+
+}
+
+.lost{
+
+    background:rgba(227, 18, 195, 0.75);
+
+    border:2px solid rgb(255, 0, 221);
+
+    border-radius:20px;
+
+    padding:25px;
+
+    transition:.3s;
+
+    box-shadow:0 0 15px rgba(255,0,0,.4);
+
+}
+
+.lost:hover{
+
+    transform:translateY(-10px);
+
+    box-shadow:0 0 25px rgb(64, 0, 255);
+
+}
+
+.lost img{
+
+    width:120px;
+    height:120px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    border:3px solid white;
+
+}
+
+.lost h3{
+
+    color:white;
+
+    margin-top:20px;
+
+    font-family:'Orbitron',sans-serif;
+
+}
+
+.lost h4{
+
+    color:#ff4d4d;
+
+}
+
+.lost p{
+
+    line-height:1.7;
+
 }
