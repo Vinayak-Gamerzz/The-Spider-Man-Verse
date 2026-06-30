@@ -630,9 +630,9 @@ td{
 
 .losses{
 
-    display:grid;
+    display:flex;
 
-    grid-template-columns:repeat(2,1fr);
+    flex-direction: column;
 
     gap:40px;
 
@@ -640,9 +640,9 @@ td{
 
 .lost{
 
-    background:rgba(227, 18, 195, 0.75);
+    background:rgba(152, 12, 12, 0.75);
 
-    border:2px solid rgb(255, 0, 221);
+    border:2px solid rgb(202, 54, 54);
 
     border-radius:20px;
 
@@ -650,7 +650,11 @@ td{
 
     transition:.3s;
 
-    box-shadow:0 0 15px rgba(255,0,0,.4);
+    box-shadow:0 0 15px rgba(193, 21, 21, 0.4);
+
+    display: flex;
+
+    border-left: 8px solid red;
 
 }
 
@@ -664,12 +668,12 @@ td{
 
 .lost img{
 
-    width:120px;
-    height:120px;
+    width:200px;
+    height:400px;
 
     object-fit:cover;
 
-    border-radius:50%;
+    border-radius:0%;
 
     border:3px solid white;
 
@@ -679,9 +683,9 @@ td{
 
     color:white;
 
-    margin-top:20px;
-
     font-family:'Orbitron',sans-serif;
+
+    text-align: center;
 
 }
 
